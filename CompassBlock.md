@@ -15,7 +15,7 @@ Below is a guide on its available methods for ComputerCraft.
 - [getX()](#getx)
 - [getY()](#gety)
 - [getZ()](#getz)
-- 
+
 ### **getSavedName()**
 **Description:** Fetches the `SavedName` property of the Compass Block.
 - **Returns:** The current `SavedName` as a string.
