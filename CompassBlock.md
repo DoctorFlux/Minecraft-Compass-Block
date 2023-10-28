@@ -8,13 +8,17 @@ Below is a guide on its available methods for ComputerCraft.
 
 ### Table of Contents
 
-- [setSavedName(name)](#setsavednamename)
-- [getSavedName()](#getsavedname)
-- [getFacingDirection()](#getfacingdirection)
-- [getDimensionName()](#getdimensionname)
-- [getX()](#getx)
-- [getY()](#gety)
-- [getZ()](#getz)
+| Method                                           | Description                                                                                   |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [`setSavedName(name)`](#setsavednamename)        | Sets the `SavedName` property of the Compass Block.                                           |
+| [`getSavedName()`](#getsavedname)                | Retrieves the `SavedName` property of the Compass Block.                                      |
+| [`getFacingDirection()`](#getfacingdirection)    | Gets the direction the Compass Block is facing.                                               |
+| [`getDimensionName()`](#getdimensionname)        | Identifies the ID of the dimension where the Compass Block is located.                        |
+| [`getX()`](#getx)                                | Fetches the X coordinate of the Compass Block.                                               |
+| [`getY()`](#gety)                                | Returns the Y coordinate of the Compass Block.                                               |
+| [`getZ()`](#getz)                                | Obtains the Z coordinate of the Compass Block.                                               |
+
+
 
 ### **getSavedName()**
 **Description:** Fetches the `SavedName` property of the Compass Block.
