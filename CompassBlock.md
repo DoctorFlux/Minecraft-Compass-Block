@@ -10,13 +10,13 @@ Below is a guide on its available methods for ComputerCraft.
 
 | Method                                           | Description                                                                                   |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [`getSavedName()`](#getsavedname)                | Retrieves the `SavedName` property of the Compass Block.                                      |
+| [`getSavedName()`](#getsavedname)                | Returns the `SavedName` property of the Compass Block.                                      |
 | [`setSavedName(name)`](#setsavednamename)        | Sets the `SavedName` property of the Compass Block.                                           |
-| [`getFacingDirection()`](#getfacingdirection)    | Gets the direction the Compass Block is facing.                                               |
-| [`getDimensionName()`](#getdimensionname)        | Identifies the ID of the dimension where the Compass Block is located.                        |
-| [`getX()`](#getx)                                | Fetches the X coordinate of the Compass Block.                                               |
+| [`getFacingDirection()`](#getfacingdirection)    | Returns the direction the Compass Block is facing.                                               |
+| [`getDimensionName()`](#getdimensionname)        | Returns the ID of the dimension where the Compass Block is located.                        |
+| [`getX()`](#getx)                                | Returns the X coordinate of the Compass Block.                                               |
 | [`getY()`](#gety)                                | Returns the Y coordinate of the Compass Block.                                               |
-| [`getZ()`](#getz)                                | Obtains the Z coordinate of the Compass Block.                                               |
+| [`getZ()`](#getz)                                | Returns the Z coordinate of the Compass Block.                                               |
 
 
 
