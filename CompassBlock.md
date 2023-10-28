@@ -33,7 +33,7 @@ Below is a guide on its available methods for ComputerCraft.
 - **Example Usage:**
   ```lua
   local compassBlock = peripheral.wrap("right")
-  compassBlock.setSavedName("NorthStar")
+  compassBlock.setSavedName("NewNameByComputercraft")
 ### **getFacingDirection()**
 **Description:** Obtains the direction the Compass Block faces.
 - **Returns:** A string indicating the direction (e.g., "up", "down", "north", "south", "east", or "west").
