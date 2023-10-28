@@ -10,8 +10,8 @@ Below is a guide on its available methods for ComputerCraft.
 
 | Method                                           | Description                                                                                   |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [`setSavedName(name)`](#setsavednamename)        | Sets the `SavedName` property of the Compass Block.                                           |
 | [`getSavedName()`](#getsavedname)                | Retrieves the `SavedName` property of the Compass Block.                                      |
+| [`setSavedName(name)`](#setsavednamename)        | Sets the `SavedName` property of the Compass Block.                                           |
 | [`getFacingDirection()`](#getfacingdirection)    | Gets the direction the Compass Block is facing.                                               |
 | [`getDimensionName()`](#getdimensionname)        | Identifies the ID of the dimension where the Compass Block is located.                        |
 | [`getX()`](#getx)                                | Fetches the X coordinate of the Compass Block.                                               |
