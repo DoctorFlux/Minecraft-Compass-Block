@@ -18,8 +18,48 @@ Below is a guide on its available methods for ComputerCraft.
 | [`getY()`](#gety)                                | Returns the Y coordinate of the Compass Block.                                               |
 | [`getZ()`](#getz)                                | Returns the Z coordinate of the Compass Block.                                               |
 
+Below is a ComputerCraft Lua program that demonstrates how to interact with the Compass Block using the available methods:
 
+```lua
+local side = "top"
+local compassBlock = peripheral.wrap(side)
 
+while true do
+    print("\nChoose an option:")
+    print("1. Set Name")
+    print("2. Get Name")
+    print("3. Get Coordinates (X, Y, Z)")
+    print("4. Get Facing Direction")
+    print("5. Get Dimension Name")
+    print("6. Exit")
+
+    local choice = read()
+    if choice == "1" then
+        print("Enter the name for the Compass Block:")
+        local name = read()
+        compassBlock.setSavedName(name)
+        print("Name set!")
+    elseif choice == "2" then
+        local name = compassBlock.getSavedName()
+        print("The Compass Block's name is: " .. name)
+    elseif choice == "3" then
+        local x = compassBlock.getX()
+        local y = compassBlock.getY()
+        local z = compassBlock.getZ()
+        print("The Compass Block's coordinates are: X=" .. x .. ", Y=" .. y .. ", Z=" .. z)
+    elseif choice == "4" then
+        local direction = compassBlock.getFacingDirection()
+        print("The Compass Block is facing: " .. direction)
+    elseif choice == "5" then
+        local dimension = compassBlock.getDimensionName()
+        print("The Compass Block is in the dimension: " .. dimension)
+    elseif choice == "6" then
+        break
+    else
+        print("Invalid choice!")
+    end
+end
+```
 ### **getSavedName()**
 **Description:** Fetches the `SavedName` property of the Compass Block.
 - **Returns:** The current `SavedName` as a string.
